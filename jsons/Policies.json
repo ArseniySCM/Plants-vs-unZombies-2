@@ -1,0 +1,300 @@
+[
+	{
+		"name": "Life",
+		"era": "Ancient era",
+		"uniques": [
+			"Only available <before adopting [Death]>",
+            "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
+			"Notified of new Barbarian encampments", "Cannot build [Undead] units"
+		],
+		"policies": [
+			{
+				"name": "Home Turf",
+				"row": 1,
+				"column": 1,
+				"uniques": [
+					"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+					"[+50]% Strength for cities <with a garrison> <when attacking>"
+				]
+			},
+			{
+				"name": "Fast Learners",
+				"row": 1,
+				"column": 3,
+				"uniques": [
+					"[+50]% XP gained from combat <for [Military] units>",
+					"[+1 Science] from every [Plantation]"
+				]
+			},
+			{
+				"name": "Vitality",
+				"row": 1,
+				"column": 5,
+				"uniques": [
+					"[+2 Food] [in all cities]",
+					"[+1 Happiness] per [10] population [in all cities]"
+				]
+			},
+			{
+				"name": "Luminosity",
+				"row": 2,
+				"column": 1,
+				"uniques": [
+					"[-33]% Gold cost of upgrading <for [Military] units>",
+				]
+			},
+			{
+				"name": "Tillage",
+				"row": 2,
+				"column": 3,
+				"uniques": [
+					"[-25]% construction time for [All] improvements",
+                    "Free [Worker] appears"
+				]
+			},
+			{
+				"name": "Life Complete",
+				"uniques": [
+					"[100]% Yield from every [Improvement]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Growth",
+		"era": "Ancient era",
+		"uniques": [
+			"Only available <after adopting [Life Complete]>",
+            "[+1 Culture, +1 Happiness] [in all cities]"
+		],
+		"policies": [
+			{
+				"name": "Fighting Spirit",
+				"row": 1,
+				"column": 1,
+				"uniques": [
+					"No damage penalty for wounded units"
+				]
+			},
+			{
+				"name": "Spreading Seeds",
+				"row": 1,
+				"column": 3,
+				"uniques": [
+					"[-25]% Culture cost of natural border growth [in all cities]",
+					"[+1] Movement <for [All] units>"
+				]
+			},
+			{
+				"name": "Pollination",
+				"row": 1,
+				"column": 5,
+				"uniques": [
+					"Each city founded increases culture cost of policies [33]% less than normal",
+					"[+10]% growth [in all cities]"
+				]
+			},
+			{
+				"name": "Pistol and Stamen",
+				"row": 2,
+				"column": 1,
+				"uniques": [
+					"[1] additional attacks per turn <for [All] units>"
+				]
+			},
+			{
+				"name": "Growth Complete",
+				"uniques": [
+					"[+10]% Strength <for [All] units> <during a Golden Age>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Blossom",
+		"era": "Ancient era",
+		"uniques": [
+			"Only available <after adopting [Growth Complete]>",
+            "[+50]% Golden Age length"
+		],
+		"policies": [
+			{
+				"name": "Leadership",
+				"row": 1,
+				"column": 1,
+				"uniques": [
+					"Free [Great General] appears",
+					"[Great General] is earned [50]% faster"
+				]
+			},
+			{
+				"name": "Reach",
+				"row": 1,
+				"column": 3,
+				"uniques": [
+					"[+1] Range <for [All] units>",
+					"[+1] Sight <for [All] units>"
+				]
+			},
+			{
+				"name": "Lost in the Weeds",
+				"row": 1,
+				"column": 5,
+				"uniques": [
+					"Enemy [non-air] units must spend [1] extra movement points when inside your territory"
+				]
+			},
+			{
+				"name": "Blossom Complete",
+				"uniques": [
+					"Empire enters golden age",
+					"All healing effects doubled",
+					"May heal outside of friendly territory",
+					"May buy [Great General] units for [200] [Culture] [in all cities] at an increasing price ([50])"
+				]
+			}
+		]
+	},
+	{
+		"name": "Dust",
+		"era": "Ancient era",
+		"uniques": [
+			"Only available <after adopting [Rot Complete]>"
+		],
+		"policies": [
+			{
+				"name": "Golden Horde",
+				"row": 1,
+				"column": 1,
+				"uniques": [
+					"[+50]% Golden Age length",
+					"[+1] Movement <for [All] units> <during a Golden Age>"
+				]
+			},
+			{
+				"name": "Swarming",
+				"row": 1,
+				"column": 3,
+				"uniques": [
+					"[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
+					"[+50]% to Flank Attack bonuses"
+				]
+			},
+			{
+				"name": "Leader of the Pack",
+				"row": 1,
+				"column": 5,
+				"uniques": [
+					"Great General provides double combat bonus",
+					"[+2] Movement <for [Great General] units>"
+				]
+			},
+			{
+				"name": "The Dead Don't Die",
+				"row": 2,
+				"column": 1,
+				"uniques": [
+					"Heals [25] damage if it kills a unit"
+				]
+			},
+			{
+				"name": "Dust Complete",
+				"uniques": [
+					"Empire enters golden age",
+					"May buy [Great General] units for [200] [Culture] [in all cities] at an increasing price ([50])"
+				]
+			}
+		]
+	},
+	{
+		"name": "Rot",
+		"era": "Ancient era",
+		"uniques": [
+			"Only available <after adopting [Death Complete]>",
+            "[4] free [Grunt] units appear"
+		],
+		"policies": [
+			{
+				"name": "Underdog",
+				"row": 1,
+				"column": 1,
+				"uniques": [
+					"[+20]% Strength decreasing with distance from the capital <for [All] units>",
+					"[+15]% Strength <when fighting units from a Civilization with more Cities than you>"
+				]
+			},
+			{
+				"name": "Cervelle de Veau",
+				"row": 1,
+				"column": 3,
+				"uniques": [
+					"Earn [100]% of killed [Military] unit's [Strength] as [Science]"
+				]
+			},
+			{
+				"name": "Rot Complete",
+				"uniques": [
+					"Free Technology"
+				]
+			}
+		]
+	},
+	{
+		"name": "Death",
+		"era": "Ancient era",
+		"uniques": ["Cannot build [Plant] units",
+			"Only available <before adopting [Life]>",
+			"Notified of new Barbarian encampments",
+			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",
+		],
+		"policies": [
+			{
+				"name": "Carnivory",
+				"row": 1,
+				"column": 1,
+				"uniques": [
+					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
+				]
+			},
+			{
+				"name": "Death II",
+				"row": 1,
+				"column": 3,
+				"uniques": [
+					"Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately"
+				]
+			},
+			{
+				"name": "Death III",
+				"row": 1,
+				"column": 5,
+				"uniques": [
+					"[+25]% Production when constructing [Military] units [in all cities]",
+                    "New [Military] units start with [15] XP [in all cities]"
+				]
+			},
+			{
+				"name": "Vengeance",
+				"row": 2,
+				"column": 2,
+				"uniques": [
+					"[+25]% Strength <for [Wounded] units>"
+				]
+			},
+			{
+				"name": "Memento Mori",
+				"row": 2,
+				"column": 4,
+				"uniques": [
+					"[+1 Happiness] [in annexed cities]"
+				]
+			},
+			{
+				"name": "Death Complete",
+				"uniques": [
+					"Receive triple Gold from Barbarian encampments and pillaging Cities"
+				]
+			}
+		]
+	}
+]

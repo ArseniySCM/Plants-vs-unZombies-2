@@ -1,0 +1,1293 @@
+[	
+//Civilian
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 3,
+		"cost": 50,
+		"uniques": [
+			"Founds a new city <by consuming this unit>",
+			"Uncapturable",
+			"Free [Settler] appears <upon being defeated> <with [25]% chance>"
+		]
+	},
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 3,
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"Can build [Water] improvements on tiles",
+			"Automation is a primary action"
+		],
+		"cost": 20
+	},
+	//Basic unit
+	{
+		"name": "Grunt",
+		"unitType": "Melee",
+		"movement": 3,
+		"strength": 8,
+		"cost": 23,
+		//"uniques":["Founds a new city <upon entering a [Barbarian encampment] tile>"]
+		"attackSound": "nonmetalhit"
+		"requiredTech":"Apocalypse"
+	},
+	{
+		"name": "Button",
+		"uniqueTo": "Myconoids",
+		"replaces": "Grunt",
+		"unitType": "Melee",
+		"movement": 3,
+		"strength": 8,
+		"cost": 20,
+		"attackSound": "nonmetalhit"
+		"uniques":["Plant"]
+	},
+	//Standart Zombies
+	{
+		"name": "Shambling Zombie",
+		"unitType": "Melee",
+		"requiredTech":"Brains"
+		"movement": 3,
+		"strength": 10,
+		"cost": 40,
+		"obsoleteTech":"Defense"
+		"upgradesTo": "Conehead Zombie",
+		"uniques": ["Undead"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Ducky Tube Zombie",
+		"unitType": "Melee",
+		"requiredTech":"Lawn"
+		"movement": 3,
+		"strength": 12,
+		"cost": 50,
+		"promotions":["Heart of Sea"]
+		//"upgradesTo": "Conehead Zombie",
+		"uniques": ["Undead"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Imp",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 7,
+		"cost": 15,
+		"obsoleteTech":"Grass"
+		"upgradesTo": "Gargantuar",
+		"uniques": ["Undead"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Conehead Zombie",
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 10,
+		"cost": 60,
+		"obsoleteTech":"Thorns"
+		"requiredTech":"Defense"
+		"uniques": ["Undead"]
+		"promotions":["Cone"]
+		"upgradesTo": "Buckethead Zombie",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Buckethead Zombie",
+		"unitType": "Heavy",
+		"movement": 3,
+		"strength": 10,
+		"cost": 80,
+		"requiredResource":"Iron"
+		"requiredTech":"Thorns"
+		"unpgradesTo":"Armored Zombie"
+		"uniques": ["Undead"]
+		"promotions":["Bucket"]
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Baloon Zombie",
+		"unitType": "Support",
+		"requiredTech":"Balance"
+		"movement": 3,
+		"strength": 8,
+		"range":1
+		"rangedStrength":12
+		"cost": 50,
+		"promotions":["Flying"]
+		//"upgradesTo": "Conehead Zombie",
+		"uniques": ["Undead"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name":"Newspaperman Zombie"
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 14,
+		"cost": 65,
+		"requiredTech":"Spores"
+		"promotions":["Aggressive"]
+		"uniques": ["Undead"]
+		"attackSound": "slider"
+	}
+	{
+		"name":"Football Zombie"
+		"unitType": "Heavy",
+		"movement": 2,
+		"strength": 18,
+		"cost": 85,
+		"promotions":["Muscles"]
+		"requiredTech":"Toxins"
+		"uniques": ["Undead"]
+		"attackSound": "slider"
+	}
+	{
+		"name":"Brick-Head Zombie"
+		"unitType": "Heavy",
+		"movement": 3,
+		"strength": 15,
+		"cost": 150,
+		"promotions":["Brickhead"]
+		"requiredTech":"Digestion"
+		"uniques": ["Undead"]
+		"attackSound": "slider"
+	}
+	{
+		"name":"Armored Zombie"
+		"unitType": "Heavy",
+		"movement": 2,
+		"strength": 12,
+		"cost": 150,
+		"promotions":[]
+		"requiredTech":"Conifers"
+		"uniques": ["Undead", "[+150]% Strength <when defending>", "[+1] Movement <when below [30] HP>"]
+		"attackSound": "slider"
+	},
+	{
+		"name":"Rugby Zombie"
+		"unitType": "Heavy",
+		"movement": 2,
+		"strength": 23,
+		"cost": 200,
+		"promotions":["Muscles"]
+		"requiredTech":"Flowers"
+		"uniques": ["Undead"]
+		"attackSound": "slider"
+	}
+	{
+		"name": "Hopping Zombie",
+		"unitType": "Melee",
+		"requiredTech":"Resettlement"
+		"movement": 3,
+		"strength": 17,
+		"cost": 90,
+		"uniques": ["Undead", "May Paradrop up to [4] tiles from inside friendly territory"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name":"Gargantuar"
+		"unitType": "Heavy",
+		"movement": 3,
+		"strength": 30,
+		"cost": 250,
+		"promotions":[]
+		"requiredTech":"Grass"
+		"uniques": ["Undead", "Uncapturable", "No defensive terrain bonus", "[+1] Sight", "Free [Imp] appears <once> <when below [50] HP> <for all movement>"]
+		"attackSound": "slider"
+	}
+	//Egyptian
+	{
+		"name": "Camel Zombie",
+		"unitType": "Melee",
+		"uniqueTo":"Egyptians"
+		"movement": 3,
+		"strength": 14,
+		"cost": 60,
+		"upgradesTo":"Explorer Zombie"
+		"obsoleteTech":"Toxins"
+		"requiredTech":"Catapult"
+		"uniques": ["Undead"]
+		"promotions":["Flank"]
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name":"Ra Zombie"
+		"unitType": "Ranged",
+		"uniqueTo":"Egyptians"
+		"replaces":"Newspaperman Zombie"
+		"movement": 3,
+		"strength": 6,
+		"rangedStrength":8
+		"range":2
+		"cost": 60,
+		"requiredTech":"Spores"
+		"uniques": ["Gain [15] [Gold] <upon damaging a [Plant] unit>","Undead", "Must set up to ranged attack"]
+		"attackSound": "slider"
+	}
+	{
+		"name":"Explorer Zombie"
+		"unitType": "Support",
+		"replaces":"Football Zombie"
+		"uniqueTo":"Egyptians"
+		"movement": 3,
+		"strength": 12,
+		"rangedStrength":11
+		"range":1
+		"cost": 80,
+		"upgradesTo":"Torchlight Zombie"
+		"obsoleteTech":"Flowers"
+		"requiredResource":"Coal"
+		"promotions":["Torch"]
+		"requiredTech":"Leaves"
+		"uniques": ["Undead"]
+		"attackSound": "slider"
+	}
+	{
+		"name":"Zombie Pharaoh"
+		"replaces":"Armored Zombie"
+		"uniqueTo":"Egyptians"
+		"unitType": "Heavy",
+		"movement": 2,
+		"strength": 12,
+		"cost": 170,
+		"promotions":[]
+		"requiredTech":"Conifers"
+		"uniques": ["Undead", "[+150]% Strength <when defending>", "[+1] Movement <when below [40] HP>"]
+		"attackSound": "slider"
+	},
+	{
+		"name":"Torchlight Zombie"
+		"unitType": "Support",
+		"replaces":"Rugby Zombie"
+		"uniqueTo":"Egyptians"
+		"movement": 3,
+		"strength": 25,
+		"rangedStrength":17
+		"range":1
+		"cost": 210,
+		"requiredResource":"Coal"
+		"promotions":["Torch"]
+		"requiredTech":"Flowers"
+		"uniques": ["Undead"]
+		"attackSound": "slider"
+	}
+	//Pirate Sea
+	{
+		"name": "Swashbuckler Zombie",
+		"unitType": "Melee",
+		"replaces":"Hopping Zombie"
+		"requiredTech":"Resettlement"
+		"uniqueTo":"Pirates"
+		"movement": 3,
+		"strength": 20,
+		"cost": 90,
+		"upgradesTo":"Pirate Captain Zombie"
+		"obsoleteTech":"Toxins"
+		"uniques": ["Undead", "May Paradrop up to [5] tiles from inside friendly territory"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Seagull Zombie",
+		"replaces":"Baloon Zombie"
+		"unitType": "Ranged",
+		"uniqueTo":"Pirates"
+		"movement": 3,
+		"strength": 8,
+		"rangedStrength":13
+		"range":1
+		"cost": 60,
+		"requiredTech":"Balance"
+		"uniques": ["Undead"]
+		"promotions":["Flying"]
+		"obsoleteTech":"Leaves"
+		"upgradesTo": "Pelican Zombie",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Pelican Zombie",
+		"unitType": "Ranged",
+		"uniqueTo":"Pirates"
+		"movement": 4,
+		"strength": 15,
+		"rangedStrength":16
+		"range":1
+		"cost": 100,
+		"requiredTech":"Leaves"
+		"uniques": ["Undead"]
+		"promotions":["Flying"]
+		//"upgradesTo": "Buckethead Zombie",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name":"Pirate Captain Zombie"
+		"unitType": "Support",
+		"uniqueTo":"Pirates"
+		"replaces":"Football Zombie"
+		"movement": 2,
+		"strength": 20,
+		"cost": 90,
+		"requiredTech":"Toxins"
+		"uniques": ["Undead", "Can carry [1] [Zombie Parrot] units"]
+		"attackSound": "slider"
+	},
+	{
+		"name":"Zombie Parrot"
+		"unitType":"Air"
+		"uniqueTo":"Pirates"
+		"requiredTech":"Toxins"
+		"movement":1
+		"range":3
+		"rangedStrength":13
+		"strength":9
+		"cost":75
+		"uniques":["Must set up to ranged attack"]
+	}
+	{
+		"name":"Barrel Roller Zombie"
+		"replaces":"Rugby Zombie"
+		"uniqueTo":"Pirates"
+		"unitType": "Support",
+		"movement": 2,
+		"strength": 18,
+		"cost": 240,
+		"requiredResource":"Barrels"
+		"promotions":["Barrel Roller"]
+		"requiredTech":"Flowers"
+		"uniques": ["Undead","Transfer Movement to [Barrel]", "Free [Barrel] appears"]
+		"attackSound": "slider"
+	}
+	{
+		"name":"Barrel"
+		"unitType":"Siege"
+		"uniqueTo":"Pirates"
+		"strength":10
+		"movement":1
+		"requiredResource":"Barrels"
+		"uniques":[
+"[2] free [Imp] units appear <upon being defeated>", "Uncapturable", "Unbuildable"]
+	}
+	//Wild West
+	{
+		"name": "Prospector Zombie",
+		"replaces":"Hopping Zombie"
+		"uniqueTo":"Texas"
+		"unitType": "Melee",
+		"requiredTech":"Resettlement"
+		"movement": 3,
+		"strength": 15,
+		"cost": 90,
+		"uniques": ["Undead", "May Paradrop up to [4] tiles from inside friendly territory", "Withdraws before melee combat <with [50]% chance>",
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name":"Poncho Zombie"
+		"replaces":"Armored Zombie"
+		"uniqueTo":"Texas"
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 19,
+		"cost": 140,
+		"promotions":[]
+		"requiredTech":"Conifers"
+		"uniques": ["Undead", "[This Unit] gains the [Plastine] promotion <with [50]% chance>"]
+		"attackSound": "slider"
+	},
+	{
+		"name":"Zombie Bull"
+		"replaces":"Football Zombie"
+		"uniqueTo":"Texas"
+		"unitType": "Armored",
+		"movement": 2,
+		"strength": 20,
+		"cost": 100,
+		"requiredResource":"Iron"
+		"promotions":["Muscles"]
+		"requiredTech":"Toxins"
+		"upgradesTo":"Rodeo Legend Zombie"
+		"obsoleteTech":"Flowers"
+		"uniques": ["Undead"]
+		"attackSound": "slider"
+	}
+	{
+		"name":"Rodeo Legend Zombie"
+		"replaces":"Rugby Zombie"
+		"uniqueTo":"Texas"
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 27,
+		"cost": 230,
+		"requiredResource":"Iron"
+		"promotions":["Muscles"]
+		"requiredTech":"Flowers"
+		"uniques": ["Undead"]
+		"attackSound": "slider"
+	}
+	{
+		"name":"Chicken Wrangler Zombie"
+		"uniqueTo":"Texas"
+		"unitType": "Support",
+		"movement": 3,
+		"strength": 17,
+		"cost": 150,
+		"promotions":[]
+		"requiredTech":"Seeds"
+		"uniques": ["Undead", "[3] free [Zombie Chickens] units appear <when below [40] HP> <once>"]
+		"attackSound": "slider"
+	},
+	{
+		"name": "Zombie Chickens",
+		"unitType": "Melee",
+		"movement": 3,
+		"strength": 10,
+		"uniques": ["Undead", "Unbuildable"],
+		"attackSound": "nonmetalhit"
+	},
+	//Frozen Zombies
+	{
+		"name": "Fossilized Mammoth",
+		"uniqueTo":"Frozen Zombies"
+		"unitType": "Heavy",
+		"movement": 4,
+		"strength": 20,
+		"cost": 40,
+		"requiredTech": "Resurrection",
+		"uniques": ["Undead"],
+		"attackSound": "elephant"
+	},
+	{
+		"name":"Hunter Zombie"
+		"unitType": "Ranged",
+		"uniqueTo":"Frozen Zombies"
+		"replaces":"Newspaperman Zombie"
+		"movement": 3,
+		"strength":8,
+		"rangedStrength":8
+		"range":2
+		"cost": 60,
+		"requiredTech":"Spores"
+		"uniques": ["Undead", "[Target Unit] gains the [Frozen] status for [2] turn(s) <upon damaging a [All] unit> <for units without [Winter-Hardened]>"]
+		"attackSound": "slider"
+	}
+	{
+		"name": "Dodo Rider Zombie",
+		"uniqueTo":"Frozen Zombies"
+		"replaces":"Baloon Zombie"
+		"unitType": "Melee",
+		"movement": 3,
+		"strength": 13,
+		"cost": 50,
+		"requiredTech":"Balance"
+		"uniques": ["Undead"]
+		"promotions":["Flying"]
+		"uniques":["[-2] Movement <upon entering a [Water] tile>"]
+		"upgradesTo": "Weasel Hoarder",
+		"obsoleteTech":"Seeds"
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name":"Troglobite"
+		"replaces":"Armored Zombie"
+		"uniqueTo":"Frozen Zombies"
+		"unitType": "Heavy",
+		"movement": 3,
+		"strength": 25,
+		"cost": 170,
+		"promotions":[]
+		"requiredTech":"Conifers"
+		"uniques": ["Undead", "[+15]% Strength <vs [Plant] units>"]
+		"attackSound": "slider"
+	},
+	{
+		"name":"Weasel Hoarder"
+		"uniqueTo":"Frozen Zombies"
+		"unitType": "Support",
+		"movement": 3,
+		"strength": 15,
+		"cost": 150,
+		"promotions":[]
+		"requiredTech":"Seeds"
+		"uniques": ["Undead", "[3] free [Ice Weasels] units appear <when below [50] HP> <once>", "[+15]% Strength <when defending>"]
+		"attackSound": "slider"
+	},
+	{
+		"name": "Ice Weasels",
+		"unitType": "Melee",
+		"movement": 3,
+		"strength": 9,
+		"uniques": ["Undead", "Unbuildable"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name":"Sloth Gargantuar"
+		"replaces":"Gargantuar"
+		"uniqueTo":"Frozen Zombies"
+		"unitType": "Heavy",
+		"movement": 3,
+		"strength": 33,
+		"cost": 270,
+		"promotions":[]
+		"requiredTech":"Grass"
+		"uniques": ["Undead", "Uncapturable", "No defensive terrain bonus", "[+1] Sight", "Free [Imp] appears <[3] times> <when below [50] HP>"]
+		"attackSound": "slider"
+	}
+	//Lost City
+	{
+		"name": "Bug Zombie",
+		"uniqueTo":"Lost City"
+		"unitType": "Melee",
+		"replaces":"Baloon Zombie"
+		"requiredTech":"Balance"
+		"movement": 4,
+		"strength": 12,
+		"cost": 50,
+		"promotions":["Flying"]
+		"upgradesTo": "Buckethead Zombie",
+		"uniques": ["Undead", "Can move after attacking"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Lost Pilot Zombie",
+		"uniqueTo":"Lost City"
+		"unitType": "Melee",
+		"requiredTech":"Wood"
+		"movement": 3,
+		"strength": 17,
+		"cost": 80,
+		"uniques": ["Undead", "May Paradrop up to [7] tiles from inside friendly territory", "[+1] Sight"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Relic Hunter Zombie",
+		"replaces":"Hopping Zombie"
+		"upgradesTo":"Lost Pilot Zombie"
+		"obsoleteTech":"Wood"
+		"uniqueTo":"Lost City"
+		"unitType": "Support",
+		"requiredTech":"Resettlement"
+		"movement": 3,
+		"strength": 14,
+		"cost": 75,
+		"uniques": ["Undead", "May Paradrop up to [3] tiles from inside friendly territory <while the empire is happy>", "[-1] Sight"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name":"Imp Porter"
+		"replaces":"Armored Zombie"
+		"uniqueTo":"Lost City"
+		"unitType": "Support",
+		"movement": 2,
+		"strength": 20,
+		"cost": 200,
+		"promotions":[]
+		"requiredTech":"Conifers"
+		"uniques": ["Undead", "[-100]% Strength <when attacking>", "Free [Backpack] appears <upon being defeated>"]
+		"attackSound": "slider"
+	},
+	{
+		"name": "Backpack",
+		"unitType": "Support",
+		"movement": 1,
+		"uniques": ["Unbuildable", "Cannot move", "Uncapturable", "Free [Shambling Zombie] appears <for all movement> <costs [+25 Gold] stats>"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name":"Turquoise Skull Zombie"
+		"replaces":"Rugby Zombie"
+		"uniqueTo":"Lost City"
+		"unitType": "Ranged",
+		"movement": 3,
+		"range":1
+		"rangedStrength":40
+		"strength": 16,
+		"cost": 280,
+		"promotions":[]
+		"requiredTech":"Flowers"
+		"uniques": ["Undead", "Must set up to ranged attack"]
+		"attackSound": "slider"
+	}
+	{
+		"name": "Parasol Zombie",
+		"uniqueTo":"Lost City"
+		"unitType": "Support",
+		"movement": 3,
+		"strength": 16,
+		"cost": 90,
+		"upgradesTo":"Turquoise Skull Zombie"
+		"obsoleteTech":"Flowers"
+		"requiredTech":"Leaves"
+		"uniques": ["Undead", "[+100]% Strength <vs [Siege] units> <when defending>", "Withdraws before melee combat <with [33]% chance>"]
+		"attackSound": "nonmetalhit"
+	},
+	//Far Future Zombies
+	{
+		"name": "Jetpack Zombie",
+		"uniqueTo":"Future Zombies"
+		"replaces":"Baloon Zombie"
+		"unitType": "Melee",
+		"requiredTech":"Balance"
+		"movement": 3,
+		"strength": 15,
+		"cost": 60,
+		"promotions":["Flying"]
+		"upgradesTo": "Blastronaut Zombie",
+		"obsoleteTech":"Symbiosis"
+		"uniques": ["Undead"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Blastronaut Zombie",
+		"uniqueTo":"Future Zombies"
+		"unitType": "Melee",
+		"requiredTech":"Symbiosis"
+		"movement": 3,
+		"strength": 20,
+		"cost": 100,
+		"promotions":["Plastine"]
+		"promotions":["Flying"]
+		//"upgradesTo": "Buckethead Zombie",
+		"uniques": ["Undead"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Shield Zombie",
+		"uniqueTo":"Future Zombies"
+		"unitType": "Support",
+		"movement": 2,
+		"strength": 20,
+		"range":1
+		"rangedStrength":13
+		"cost": 100,
+		"requiredResource":"Iron"
+		"requiredTech":"Stems"
+		"upgradesTo":"Robo-Cone Zombie"
+		"obsoleteTech":"Toxins"
+		"uniques": ["Undead", "Withdraws before melee combat <when above [90] HP>", "Consumes [2] [Iron]"]
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Robo-Cone Zombie",
+		"replaces":"Football Zombie"
+		"uniqueTo":"Future Zombies"
+		"unitType": "Armored",
+		"movement": 2,
+		"strength": 13,
+		"cost": 100,
+		"requiredResource":"Iron"
+		"requiredTech":"Toxins"
+		"uniques": ["Undead", "[+100]% Strength <when defending>", "Consumes [2] [Iron]"]
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Disco-Tron 3000",
+		"replaces":"Armored Zombie"
+		"uniqueTo":"Future Zombies"
+		"unitType": "Armored",
+		"movement": 2,
+		"strength": 18,
+		"cost": 300,
+		"requiredTech":"Conifers"
+		"uniques": ["Undead", "[+50]% Strength <when defending>", "[2] free [Disco Jetpack Zombie] units appear <for all movement> <costs [+100 Gold] stats>", "Consumes [3] [Iron]"]
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Disco Jetpack Zombie",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 21,
+		"promotions":["Flying"]
+		"uniques": ["Undead", "Unbuildable"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name":"Mecha-Football Zombie"
+		"replaces":"Rugby Zombie"
+		"uniqueTo":"Future Zombies"
+		"unitType": "Armored",
+		"movement": 2,
+		"strength": 35,
+		"range":1
+		"rangedStrength":24
+		"cost": 250,
+		"requiredTech":"Flowers"
+		"uniques": ["Undead", "Must set up to ranged attack", "Consumes [4] [Iron]"]
+		"attackSound": "slider"
+	}
+	//Dark Ages
+	{
+		"name":"Knight"
+		"replaces":"Armored Zombie"
+		"uniqueTo":"Zombie Kingdom"
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 23,
+		"cost": 160,
+		"promotions":[]
+		"requiredTech":"Conifers"
+		"uniques": ["Undead", "[+15]% Strength <when defending>"]
+		"attackSound": "slider"
+	},
+	{
+		"name":"Jester Zombie"
+		"uniqueTo":"Zombie Kingdom"
+		"requiredTech":"Fermentation"
+		"unitType":"Support"
+		"movement":3
+		"strength":14
+		"cost":150
+		"upgradesTo":"Wizard Zombie"
+		"uniques":["Undead", "Withdraws before melee combat"]
+		"attackSound": "slider"
+	},
+	{
+		"name":"Wizard Zombie"
+		"uniqueTo":"Zombie Kingdom"
+		"requiredTech":"The Rot"
+		"unitType":"Ranged"
+		"movement":2
+		"range":3
+		"rangedStrength":15
+		"strength":25
+		"cost":300
+		"uniques":["Undead", "[Target Unit] gains the [Metamorphosis] status for [2] turn(s) <upon damaging a [All] unit>", "Must set up to ranged attack"]
+		"attackSound": "slider"
+	},
+	//Neon Mixtape Tour
+	{
+		"name":"Hair Metal Gargantuar"
+		"replaces":"Gargantuar"
+		"uniqueTo":"Neon Mixtape"
+		"unitType": "Heavy",
+		"movement": 3,
+		"range":2
+		"rangedStrength":27
+		"strength": 33,
+		"cost": 250,
+		"promotions":[]
+		"requiredTech":"Grass"
+		"uniques": ["Undead", "Uncapturable", "No defensive terrain bonus", "[+1] Sight", "Free [Imp] appears <once> <when below [50] HP> <for all movement>"]
+		"attackSound": "slider"
+	}
+	{
+		"name":"MC Zom-B"
+		"uniqueTo":"Neon Mixtape"
+		"replaces":"Football Zombie"
+		"unitType": "Ranged",
+		"movement": 2,
+		"strength": 10,
+		"range":2
+		"rangedStrength":25
+		"cost": 85,
+		"requiredTech":"Toxins"
+		"uniques": ["Undead"]
+		"attackSound": "slider"
+	}
+	{
+		"name":"Glitter Zombie"
+		"replaces":"Rugby Zombie"
+		"uniqueTo":"Neon Mixtape"
+		"unitType": "Support",
+		"movement": 1,
+		"strength": 20,
+		"rangedStrength":40
+		"cost": 200,
+		"requiredTech":"Flowers"
+		"uniques": ["Undead"]
+		"attackSound": "slider"
+	}
+	{
+		"name":"Arcade Zombie"
+		"replaces":"Brick-Head Zombie"
+		"uniqueTo":"Neon Mixtape"
+		"unitType": "Heavy",
+		"movement": 3,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech":"Digestion"
+		"uniques": ["Undead"]
+		"attackSound": "slider"
+	},
+	{
+		"name":"Boombox Zombie"
+		"requiredTech":"Seeds"
+		"uniqueTo":"Neon Mixtape"
+		"unitType":"Support"
+		"strength":16
+		"range":2
+		"rangedStrength":13
+		"cost":80
+		"uniques": ["Undead", "[Target Unit] gains the [Calm] status for [2] turn(s) <upon damaging a [All] unit>"]
+	},
+	//Zombies
+	{
+		"name": "Zom-boni",
+		"uniqueTo": "Zombies",
+		"replaces": "Fossilized Mammoth",
+		"unitType": "Heavy",
+		"movement": 4,
+		"strength": 28,
+		"cost": 200,
+		"requiredTech": "The Green",
+		"uniques": ["Undead", "Double movement in [Snow]", "Double movement in [Tundra]"
+		],
+		"attackSound": "elephant"
+	},
+	{
+		"name":"Screen Door Zombie"
+		"uniqueTo":"Zombies"
+		"replaces":"Armored Zombie"
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 20,
+		"cost": 150,
+		"promotions":[]
+		"requiredTech":"Conifers"
+		"uniques": ["Undead", "[+50]% Strength <when defending>"]
+		"attackSound": "slider"
+	},
+	{
+		"name":"Sunday Edition Zombie"
+		"replaces":"Armored Zombie"
+		"uniqueTo":"Zombies"
+		"unitType": "Heavy",
+		"movement": 2,
+		"strength": 17,
+		"cost": 150,
+		"promotions":["Aggressive"]
+		"requiredTech":"Conifers"
+		"uniques": ["Undead"]
+		"attackSound": "slider"
+	},
+	//Jurassic Marsh
+	{
+		"name":"Fossilhead Zombie"
+		"replaces":"Armored Zombie"
+		"uniqueTo":"Jurassic Zombies"
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 15,
+		"cost": 150,
+		"promotions":[]
+		"requiredTech":"Conifers"
+		"uniques": ["Undead", "[+100]% Strength <when defending>"]
+		"attackSound": "slider"
+	},
+	{
+		"name":"Bully Zombie"
+		"replaces":"Rugby Zombie"
+		"uniqueTo":"Jurassic Zombies"
+		"unitType": "Heavy",
+		"movement": 3,
+		"strength": 27,
+		"cost": 200,
+		"requiredTech":"Flowers"
+		"uniques": ["Undead"]
+		"attackSound": "slider"
+	}
+	//Big Wave
+	{
+		"name":"Snorkel Zombie"
+		"uniqueTo":"Beach Zombies"
+		"replaces": "Ducky Tube Zombie",
+		"unitType": "Melee Water",
+		"requiredTech":"Lawn"
+		"movement": 4,
+		"strength": 14,
+		"cost": 70,
+		"uniques": ["Undead", "Invisible to non-adjacent units", "Eliminates combat penalty for attacking across a coast"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name":"Surfer Zombie"
+		"uniqueTo":"Beach Zombies"
+		"replaces":"Newspaperman Zombie"
+		"unitType": "Melee",
+		"movement": 3,
+		"strength": 13,
+		"cost": 80,
+		"requiredTech":"Spores"
+		//"promotions":["Surfboard"]
+		"uniques": ["Undead", "Can instantly construct a [Surfboard] improvement <removing the [Surfboard] promotion/status> <once>", "[This Unit] gains the [Surfboard] promotion"]
+		"attackSound": "slider"
+	}
+	{
+		"name":"Octo Zombie"
+		"replaces":"Rugby Zombie"
+		"uniqueTo":"Beach Zombies"
+		"unitType": "Heavy",
+		"movement": 3,
+		"strength": 22,
+		"range":1
+		"rangedStrength":16
+		"cost": 220,
+		"requiredTech":"Flowers"
+		"uniques": ["Undead", "[Target Unit] gains the [Metamorphosis] status for [2] turn(s) <upon damaging a [All] unit>", "Must set up to ranged attack"]
+		"attackSound": "slider"
+	}
+	//Barbarians
+	{
+		"name": "Brute",
+		"unitType": "Barbarian",
+		"uniqueTo":"Barbarians"
+		"requiredTech":"Thorns"
+		"movement": 3,
+		"strength": 14,
+		"cost": 30,
+		"uniques": ["Undead"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Skirmisher",
+		"unitType": "Barbarian",
+		"uniqueTo":"Barbarians"
+		"movement": 3,
+		"strength": 9,
+		"rangedStrength":13
+		"range":2
+		"cost": 30,
+		"uniques": ["Undead"],
+		"attackSound": "nonmetalhit"
+	},
+	//Plants
+	{
+		"name": "Pea Shooter",
+		"unitType": "Ranged",
+		"movement": 3,
+		"strength": 8,
+		"rangedStrength": 10,
+		"cost": 30,
+		"range":2
+		"requiredTech":"Photosynthesis I"
+		"uniques": ["Plant", "Peashooter"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Repeater",
+		"unitType": "Ranged",
+		"movement": 3,
+		"strength": 15,
+		"rangedStrength": 10,
+		"cost": 70,
+		"range":2
+		"requiredTech":"New Era I"
+		"uniques": ["Plant", "Peashooter", "[1] additional attacks per turn"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Sea Shroom",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"strength": 7,
+		"rangedStrength": 13,
+		"cost": 30,
+		"range":2
+		"requiredTech":"Lawn"
+		"uniques": ["Plant", "Mushroom"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Red Stinger",
+		"unitType": "Ranged",
+		"movement": 3,
+		"strength": 14,
+		"rangedStrength": 17,
+		"cost": 85,
+		"range":2
+		"requiredTech":"Wood"
+		"uniques": ["Plant", "Peashooter",],
+		"attackSound": "shot"
+	},
+	{
+		"name":"Iceberg Lettuce"
+		"unitType":"Support"
+		"requiredTech":"Roots"
+		"movement":3
+		"cost":15
+		"strength":7
+		"uniques":["Self-destructs when attacking", "[Target Unit] gains the [Iceberg] status for [3] turn(s) <upon damaging a [All] unit> <for units without [Winter-Hardened]>", "Ice"]
+	}
+	{
+		"name": "Wall-Nut",
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 6,
+		"cost": 45,
+		"requiredTech":"Defense"
+		"uniques": ["Plant", "[+120]% Strength <when defending>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Infi-Nut",
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 12,
+		"cost": 100,
+		"requiredTech":"Toxins"
+		"uniques": ["Plant", "[+100]% Strength <when defending>", "Unit will heal every turn, even if it performs an action"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Pepper Spray",
+		"unitType": "Ranged",
+		"movement": 3,
+		"strength": 15,
+		"rangedStrength": 20,
+		"cost": 40,
+		"requiredTech":"Morbidity"
+		"uniques": ["Plant", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Cabbage-Pult",
+		"unitType": "Siege",
+		"movement": 3,
+		"strength": 8,
+		"rangedStrength": 10,
+		"cost": 20,
+		"requiredTech":"Catapult"
+		"upgradesTo": "Spud Gun",
+		"uniques": ["Plant", "Never appears as a Barbarian unit"],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Spud Gun",
+		"unitType": "Siege",
+		"movement": 3,
+		"strength": 10,
+		"rangedStrength": 12,
+		"cost": 20,
+		"requiredTech":"Putrefaction"
+		"upgradesTo": "Corn Cob Cannon",
+		"uniques": ["Plant", "Never appears as a Barbarian unit"],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Corn Cob Cannon",
+		"unitType": "Siege",
+		"movement": 3,
+		"strength": 12,
+		"rangedStrength": 15,
+		"cost": 30,
+		"requiredTech":"New Era II"
+		"uniques": ["Plant","Never appears as a Barbarian unit"
+		],
+		"attackSound": "cannon"
+	},
+	//Peashoters
+	{
+		"name": "Threepeater",
+		"replaces":"Repeater"
+		"uniqueTo":"Peashooters"
+		"unitType": "Ranged",
+		"movement": 3,
+		"strength": 15,
+		"range":2
+		"rangedStrength": 10,
+		"cost": 70,
+		"requiredTech":"New Era I"
+		"uniques": ["Plant", "Peashooter", "[2] additional attacks per turn"],
+		"attackSound": "shot"
+	},
+	//Myconoids
+	{
+		"name": "Puff-Shroom",
+		"replaces":"Pea Shooter"
+		"uniqueTo":"Myconoids"
+		"unitType": "Ranged",
+		"movement": 3,
+		"strength": 8,
+		"rangedStrength": 8,
+		"cost": 10,
+		"range":1
+		"requiredTech":"Photosynthesis I"
+		"uniques": ["Plant", "Mushroom"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Fume-Shroom",
+		"replaces":"Repeater"
+		"uniqueTo":"Myconoids"
+		"unitType": "Ranged",
+		"movement": 3,
+		"strength": 13,
+		"rangedStrength": 7,
+		"cost": 50,
+		"range":3
+		"requiredTech":"New Era I"
+		"uniques": ["Plant", "Mushroom", "[2] additional attacks per turn"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Scaredy Shroom",
+		//"replaces":"Pea Shooter"
+		"uniqueTo":"Myconoids"
+		"unitType": "Ranged",
+		"movement": 2,
+		"strength": 11,
+		"rangedStrength": 13,
+		"cost": 40,
+		"range":2
+		"requiredTech":"Resettlement"
+		"uniques": ["Plant", "Mushroom", "[+30]% Strength decreasing with distance from the capital"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Spore Shroom",
+		//"replaces":"Pea Shooter"
+		"uniqueTo":"Myconoids"
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 14,
+		"rangedStrength": 20,
+		"cost": 140,
+		"range":3
+		"requiredTech":"Seeds"
+		"uniques": ["Plant", "Mushroom", "May capture killed [Melee] units", "Must set up to ranged attack"],
+		"attackSound": "shot"
+	},
+	//Seaweeds
+	{
+		"name": "Tangle Kelp",
+		"replaces":"Sea Shroom"
+		"uniqueTo":"Seaweeds"
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 5,
+		"rangedStrength": 20,
+		"cost": 35,
+		"range":1
+		"requiredTech":"Lawn"
+		"uniques": ["Plant", "Mushroom", "Invisible to non-adjacent units"],
+		"attackSound": "shot"
+	},
+	{
+		"name":"Guacodile"
+		"replaces": "Pea Shooter",
+		"uniqueTo":"Seaweeds"
+		"unitType": "Ranged",
+		"movement": 3,
+		"strength": 9,
+		"rangedStrength": 13,
+		"cost": 30,
+		"range":2
+		"requiredTech":"Photosynthesis I"
+		"uniques": ["Plant", "Peashooter", "May travel on Water tiles without embarking"],
+		"attackSound": "shot"
+	},
+	//Florists
+	{
+		"name":"Stallia"
+		"uniqueTo":"Florists"
+		"replaces":"Iceberg Lettuce"
+		"unitType":"Support"
+		"requiredTech":"Roots"
+		"movement":3
+		"cost":50
+		"strength":7
+		"uniques":["[Target Unit] gains the [Perfumed] status for [2] turn(s) <upon damaging a [All] unit>", "Flower", "Plant"]
+	}
+	{
+		"name": "Dandelion",
+		"uniqueTo":"Florists"
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 15,
+		"rangedStrength": 28,
+		"range":3
+		"cost": 200,
+		"requiredTech":"Flowers"
+		"uniques": ["Plant", "Flower", "Never appears as a Barbarian unit", "Must set up to ranged attack", "Ranged attacks may be performed over obstacles"],
+		"attackSound": "throw"
+	},
+	//Other
+	{
+		"name": "Final Boss",
+		"unitType": "Ranged",
+		"requiredTech": "The Red",
+		"cost": 500,
+		"movement":3
+		"strength": 45,
+		"rangedStrength":60
+		"range": 3,
+		"uniques": ["Never appears as a Barbarian unit", "Limited to [1] per Civilization","Free [Shambling Zombie] appears <for all movement> <costs [+50 Gold] stats>"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Not-So-Great General",
+		"unitType": "Civilian",
+		"cost": 150,
+		"movement": 3,
+		"uniques": [
+			"[+10]% Strength bonus for [Military] units within [1] tiles",
+			"Uncapturable"
+		]
+	},
+	// bombs
+
+	{
+		"name": "Cherry Bomb",
+		"unitType": "Bomb",
+		"movement": 1,
+		"strength": 60,
+		"rangedStrength": 60,
+		"range": 10,
+		"cost": 600,
+		"uniques": ["Plant", "[-100]% maintenance costs"
+		],
+		"requiredTech": "Dispersal",
+		"attackSound": "missile"
+	},
+	{
+		"name": "Tactical Cuke",
+		"unitType": "Bomb",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 10,
+		"cost": 600,
+		"requiredTech": "Resurrection",
+		"uniques": [
+			"Nuclear weapon of Strength [1]",
+			"Self-destructs when attacking",
+			"Blast radius [2]",
+			"Limited to [5] per Civilization"
+		],
+		"attackSound": "nuke"
+	},
+
+	//  Great People
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Can be earned through combat",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 3
+	},
+	{
+		"name": "King Zombie",
+		"unitType": "Civilian",
+		"uniques": [
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"Great Person - [War]",
+			"Can be earned through combat",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 3
+	},
+	
+]

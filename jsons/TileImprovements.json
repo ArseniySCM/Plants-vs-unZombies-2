@@ -1,0 +1,269 @@
+[	
+	{
+		"name": "Log cabin",
+		"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Cobblestone", "Forest", "Hill"],
+		"turnsToBuild": 4,
+		"uniques": [
+			"Only available <after adopting [Life]>",
+			"[+1 Production] <after adopting [Life]>",
+			"Turn this tile into a [Forest] tile",
+			"Cannot be built on [Jungle] tiles",
+			"Cannot be built on [Snow] tiles",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "L"
+	},
+	{
+		"name": "Sunflowers",
+		"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Desert"],
+		"turnsToBuild": 4,
+		"uniques": [
+			"Only available <after adopting [Life]>",
+			"[+2 Gold] <after adopting [Life]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "S"
+	},
+	{
+		"name": "Jungle gym",
+		"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Jungle"],
+		"turnsToBuild": 4,
+		"uniques": [
+			"Only available <after adopting [Life]>",
+			"Turn this tile into a [Jungle] tile",
+			"[+1 Food] <after adopting [Life]>",
+			"Cannot be built on [Forest] tiles",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "J"
+	},
+	{
+		"name": "Plantation",
+		"turnsToBuild": 4,
+		"uniques": [
+			"Only available <after adopting [Life]>",
+			"[+1 Food] <after adopting [Life]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Lily pad",
+		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
+		"turnsToBuild":4,
+		"uniques": [
+			"Only available <after adopting [Life]>",
+			"[+1 Food] <after adopting [Life]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "Y"
+	},
+	{
+		"name": "Fishing Boats",
+		"turnsToBuild": 4,
+		"food": 1,
+		"uniques": [
+			"Only available <after adopting [Life]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "F"
+	},
+
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"turnsToBuild": 4,
+		"uniques": [
+			"Only available <after adopting [Death]>",
+			"[+2 Production] <after adopting [Death]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Storage",
+		"turnsToBuild": 5,
+		"production":1
+		"uniques": ["Can only be built to improve a resource",
+			"[+1 Production] <after adopting [Death]>",
+			"Pillaging this improvement yields approximately [+18 Gold]"
+		],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Camp",
+		"turnsToBuild": 5,
+		//"techRequired": "",
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]", "Only available <after adopting [Death]>",],
+		"shortcutKey": "C"
+	},
+	{
+		"name": "Graveyard",
+		"terrainsCanBeBuiltOn": ["Plains", "Grassland", "Desert", "Cobblestone", "Snow"],
+		"turnsToBuild": 4,
+		"uniques": [
+			"Only available <after adopting [Death]>",
+			"[+1 Food] <after adopting [Death]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "G"
+	},
+	{
+		"name": "Fuel pump",
+		"turnsToBuild": 4,
+		"uniques": [
+			"Can only be built to improve a resource",
+			"Only available <after adopting [Death]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "P"
+	},
+
+	{
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Cobblestone","Snow","Forest","Jungle"],
+		"turnsToBuild": 4,
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%"],
+		"shortcutKey": "O"
+	},
+
+	// Transportation
+	{
+		"name": "Road",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"techRequired": "Apocalypse",
+		"uniques": [
+			"Can be built outside your borders",
+			"Costs [1] [Gold] per turn when in your territory"
+		],
+		"shortcutKey": "R"
+	},
+	{
+		"name": "Railroad",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"techRequired": "Symbiosis",
+		"uniques": [
+			"Can be built outside your borders",
+			"Costs [2] [Gold] per turn when in your territory"
+		],
+		"shortcutKey": "R"
+	},
+	
+	// Removals
+	// Any improvement that starts with 'Remove ' is automatically changed into
+	// the improvement that removes the terrainfeature after it.
+	{
+		"name": "Remove Forest",
+		"turnsToBuild": 4,
+		"uniques": [
+			"Can be built outside your borders",
+			"Only available <after adopting [Death]>"
+		],
+		"shortcutKey": "X",
+        "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
+	},
+	{
+		"name": "Remove Jungle",
+		"turnsToBuild": 4,
+		"uniques": [
+			"Can be built outside your borders",
+			"Only available <after adopting [Death]>"
+		],
+		"shortcutKey": "X",
+		"civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
+	},
+	{
+		"name": "Remove Fallout",
+		"turnsToBuild": 4,
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
+
+	{
+        "name": "Repair",
+        "terrainsCanBeBuiltOn": ["Land","Water"],
+        "turnsToBuild": 2,
+        "uniques": ["Unbuildable"],
+        "shortcutKey": "E",
+        "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
+    },
+
+	// These are unique and have unique in-game checks related to them
+	{
+		"name": "Remove Road",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Railroad",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Cancel improvement order",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "."
+	},
+	
+	// Great Person improvements
+	
+	{
+		"name": "Citadel",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Can be built just outside your borders",
+        	"Gain control over [all] tiles in a [1]-tile radius",
+			"Removes removable features when built"
+		]
+	},
+	{
+		"name": "Surfboard",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Gives a defensive bonus of [20]% <for [Beach Zombies] units>",
+			"Adjacent enemy units ending their turn take [15] damage <for [non-[Beach Zombies]] units>",
+			"Can be built outside your borders",
+			"Removes removable features when built"
+		]
+	},
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Unpillagable",
+			"Unbuildable",
+		],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Unpillagable",
+			"Irremovable",
+			"Unbuildable",
+			"Ensures a minimum tile yield of [+2 Food, +1 Production, +1 Culture]",
+			"Excluded from map editor"
+		],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"}
+		]
+	},
+	{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Unpillagable",
+			"Unbuildable",
+			"Provides a random bonus when entered"
+		],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+	}
+]

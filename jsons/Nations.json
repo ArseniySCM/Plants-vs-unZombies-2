@@ -1,0 +1,638 @@
+[
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+	},
+	{
+		"name": "Myconoids",
+		"leaderName": "Humongous Fungus",
+		"adjective": ["Myconoid"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "Prepare for war!",
+		"attacked": "We will bring you into the ground!",
+		"defeated": "I weep for the future generations.",
+		"introduction": "The mushrooms welcome you.",
+		"neutralHello": "What now?",
+		"hateHello": "So, out with it!",
+		"tradeRequest": "It would be in your best interest, to carefully consider this proposal.",
+		"outerColor": [81,0,9],
+		"innerColor": [255,120,0],
+		"uniqueName": "Composting",
+		"uniques": [
+			"Starts with [Life] adopted",
+			"[Gold] cost of purchasing items in cities [-25]%",
+			"[-33]% maintenance costs <for [All] units>"
+		],
+		"cities": [
+			"Shroom-city","Spore Town","Kashroom","New Sunshroom","Night Wille","Shroomy 06","Shroomy 07",
+			"Shroomy 08","Shroomy 09","Shroomy 10","Shroomy 11","Shroomy 12","Shroomy 13","Shroomy 14","Shroomy 15",
+			"Shroomy 16","Shroomy 17","Shroomy 18","Shroomy 19","Shroomy 20"
+		]
+	},
+	{
+		"name": "Peashooters",
+		"leaderName": "Leaf Erikson",
+		"adjective": ["Tree"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "You're disturbing us, prepare for war.",
+		"attacked": "I'll bury you.",
+		"defeated": "I congratulate you for your victory.",
+		"introduction": "Welcome. We are the Treefolk.",
+		"neutralHello": "Hello.",
+		"hateHello": "It's you.",
+		"tradeRequest": "I offer you this exceptional proposition.",
+		"outerColor": [43, 88, 46],
+		"innerColor": [146, 221, 10],
+		"uniqueName": "Ecosystem",
+		"uniques": [
+			"Starts with [Life] adopted",
+		],
+		"cities": [
+			"Great Pea","Green Pea","Yellow Pea","Pealand","Peashoot City","Green City","Red Pea","Purple Pea","Mupea City","New Pea","Pea 1",
+			"Pea 2","Pea 3","Pea 4","Pea 5","Pea 6","Pea 7","Pea 8","Pea 9","Pea 10"
+		]
+	},
+	{
+		"name": "Seaweeds",
+		"leaderName": "Undine",
+		"adjective": ["Seaweed"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "If I am to be honest, I tire of those pointless charades.",
+		"attacked": "Ahahah! Too bad that I'll probably kill you!",
+		"defeated": "A common man alone could not have defeated me...",
+		"introduction": "Hah, are you afraid?",
+		"neutralHello": "Hail to you.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "This is a fine deal! Even a drunk beggar would agree!",
+
+        "outerColor": [12,75,25],
+        "innerColor": [157,172,255],
+
+		"uniqueName": "Aquaculture",
+		"uniques": [
+			"Starts with [Life] adopted",
+			"[+2] Movement <in [Water] tiles>",
+			"[+1] Sight <for [Embarked] units>",
+		],
+		"cities": [
+			"Underwater City","Wateria","New Atlanta","Water Ceed","New Lake","Seedcity","Water 07","Water 08","Water 09","Water 10",
+			"Water 11","Water 12","Water 13","Water 14","Water 15","Water 16","Water 17","Water 18","Water 19","Water 20"
+		]
+    },
+	{
+		"name": "Florists",
+		"leaderName": "Violet",
+		"adjective": ["Florist"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "The world will be more beautiful without you. Prepare for war.",
+		"attacked": "Fool! You will soon regret dearly! I swear it!",
+		"defeated": "You have won, congratulations. My palace is now in your possession, and I beg that you care well for the peacock.",
+		"introduction": "Welcome foreigner. Come and tell me about your empire.",
+		"neutralHello": "Peace be upon you.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Come forth, let's do business.",
+		"outerColor": [38, 98, 255],
+        "innerColor": [239, 236, 148],
+		"uniqueName": "Blossoming Beauty",
+		"uniques": [
+			"Starts with [Life] adopted",
+			"[+1 Culture] [in all cities] <before discovering [Flowers]>",
+			"[+1 Culture] [in all cities]"
+		],
+		"cities": [
+			"Floweria","Thorn-city","Bloom ville","Bloomeria","Bloom 05","Bloom 06","Bloom 07","Bloom 08","Bloom 09","Bloom 10",
+			"Bloom 11","Bloom 12","Bloom 13","Bloom 14","Bloom 15","Bloom 16","Bloom 17","Bloom 18","Bloom 19","Bloom 20"
+		]
+    },
+    {
+		"name": "Catapults",
+		"leaderName": "Siegepult",
+		"adjective": ["Siege"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"tradeRequest": "",
+		"outerColor": [228, 4, 169],
+		"innerColor": [28, 252, 73],
+
+		"uniqueName": "Fighting from closed positions",
+		"uniques": [
+			"Starts with [Life] adopted",
+			
+		],
+		"cities": [
+			"Catapultia","Siege city","Siege ville","Far City","Siege 05","Siege 06","Siege 07","Siege 08","Siege 09","Siege 10",
+			"Siege 11","Siege 12","Siege 13","Siege 14","Siege 15","Siege 16","Siege 17","Siege 18","Siege 19","Siege 20"
+		]
+    },
+    {
+		"name": "Electricians",
+		"leaderName": "Ghrlectric",
+		"adjective": ["Electrician"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"tradeRequest": "",
+		"outerColor": [3, 252, 248],
+        "innerColor": [22, 10, 64],
+		"uniqueName": "Power of Thunder",
+		"uniques": [
+			"Starts with [Life] adopted",
+		],
+		"cities": [
+			"Energy City","ElectriCity","New Energia","Thunder Wille","Bzcity","Bzz 06","Bzz 07","Bzz 08","Bzz 09","Bzz 10",
+			"Bzz 11","Bzz 12","Bzz 13","Bzz 14","Bzz 15","Bzz 16","Bzz 17","Bzz 18","Bzz 19","Bzz 20"
+		]
+    },
+    {
+		"name": "Bombardo",
+		"leaderName": "Bombardilo",
+		"adjective": ["Bombardian"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"tradeRequest": "",
+		"outerColor": [64, 26, 10],
+        "innerColor": [237, 36, 56],
+		"uniqueName": "Boom!",
+		"uniques": [
+			"Starts with [Life] adopted",
+			
+		],
+		"cities": [
+			"Bombardilo City","Ca-Boom","New TNT City","Bombardburg","Bomb 05","Bomb 06","Bomb 07","Bomb 08","Bomb 09","Bomb 10",
+			"Bomb 11","Bomb 12","Bomb 13","Bomb 14","Bomb 15","Bomb 16","Bomb 17","Bomb 18","Bomb 19","Bomb 20"
+		]
+    },
+    {
+		"name": "Spikes",
+		"leaderName": "Cactus VI",
+		"adjective": ["Spikean"],
+		"startBias": ["Desert", "Coast"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"tradeRequest": "",
+		"outerColor": [47, 153, 67],
+        "innerColor": [9, 64, 19],
+		"uniqueName": "Sharp",
+		"uniques": [
+			"Starts with [Life] adopted",
+			
+		],
+		"cities": [
+			"Sharp City","Spike city","Spear ville","Spike 05","Spike 06","Spike 07","Spike 08","Spike 09","Spike 10",
+			"Spike 11","Spike 12","Spike 13","Spike 14","Spike 15","Spike 16","Spike 17","Spike 18","Spike 19","Spike 20"
+		]
+    },
+    {
+		"name": "Enchanted",
+		"leaderName": "Lily",
+		"adjective": ["Enchantian"],
+		"startBias": ["Cobblestone"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"tradeRequest": "",
+		"outerColor": [188, 91, 227],
+        "innerColor": [48, 9, 64],
+		"uniqueName": "Power of Magic",
+		"uniques": [
+			"Starts with [Life] adopted",
+			
+		],
+		"cities": [
+			"Enchantia","Magicia","Spell City","Hiden City","Magic 05","Magic 06","Magic 07","Magic 08","Magic 09","Magic 10",
+			"Magic 11","Magic 12","Magic 13","Magic 14","Magic 15","Magic 16","Magic 17","Magic 18","Magic 19","Magic 20"
+		]
+    },
+    {
+		"name": "Fighters",
+		"leaderName": "Hander",
+		"adjective": ["Fighterian"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"tradeRequest": "",
+		"outerColor": [227, 170, 91],
+        "innerColor": [54, 102, 90],
+		"uniqueName": "Fighting",
+		"uniques": [
+			"Starts with [Life] adopted",
+			
+		],
+		"cities": [
+			"Fight City","Repel City","Fight ville","Enforce City","Fight 05","Fight 06","Fight 07","Fight 08","Fight 09","Fight 10",
+			"Fight 11","Fight 12","Fight 13","Fight 14","Fight 15","Fight 16","Fight 17","Fight 18","Fight 19","Fight 20"
+		]
+    },
+    {
+		"name": "Conceals",
+		"leaderName": "Moonflower",
+		"adjective": ["Conceal"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"tradeRequest": "",
+		"outerColor": [147, 113, 171],
+		"innerColor": [44, 42, 76],
+
+		"uniqueName": "Moon",
+		"uniques": [
+			"Starts with [Life] adopted",
+			
+		],
+		"cities": [
+			"Moon City","Shadow City","Moon ville","Conceal City","Shadow 05","Shadow 06","Shadow 07","Shadow 08","Shadow 09","Shadow 10",
+			"Shadow 11","Shadow 12","Shadow 13","Shadow 14","Shadow 15","Shadow 16","Shadow 17","Shadow 18","Shadow 19","Shadow 20"
+		]
+    },
+    {
+		"name": "Wall-Nuts",
+		"leaderName": "Wall-Nut",
+		"adjective": ["Nut"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "The world will be more beautiful without you. Prepare for war.",
+		"attacked": "Fool! You will soon regret dearly! I swear it!",
+		"defeated": "You have won, congratulations. My palace is now in your possession, and I beg that you care well for the peacock.",
+		"introduction": "Welcome foreigner. Come and tell me about your empire.",
+		"neutralHello": "Peace be upon you.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Come forth, let's do business.",
+		"outerColor": [38, 98, 255],
+        "innerColor": [239, 236, 148],
+		"uniqueName": "Wall",
+		"uniques": [
+			"Starts with [Life] adopted",
+		],
+		"cities": [
+			"Wallnutia","Nut-city","New Nut","Nut Tree","Nut Leaf 01","Nut Nut","Nut 01","NutLeaf 02","Great Nut","Nut 02","Nut 03","Nut 04","Nut 05","Nut 06",
+"Nut 07","Nut 08","Nut 09","Nut 10",		]
+    },
+	{
+		"name": "Egyptians",
+		"leaderName": "Tutan-hamon",
+		"adjective": ["Egyptian"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "Your existence is a sin!",
+		"attacked": "Ra is on our side.",
+		"defeated": "I am the most fearful, and you are the strongest.",
+		"introduction": "Are you real or a phantom?",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing - to make this deal with me.",
+
+		"outerColor": [0,0,0],
+		"innerColor": [166, 164, 88],
+		"uniqueName": "Sand power",
+		"uniques": ["Starts with [Death] adopted", "[+1 Science] from [Desert] tiles [in capital]", "[+1 Food, +1 Production] from [Desert] tiles [in all cities]", "[+1 Culture] from [Desert] tiles without [Hill] [in capital]"],
+		"cities": [
+			"Mummywille","Sandcity","Suntown","Pyramid-city","New Egypt","Sandbrain","Sandstone","Sand","Sunwille","Golden Sands",
+			"Hiza","Altar","Sand 01","Sand 02","Sun 03","Sand 04","Sun 05","New Sandstorme","Sandstorme"]
+	},
+	{
+		"name": "Zombies",
+		"leaderName": "Rob",
+		"adjective": ["Zombie"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+	
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "BRAINS!",
+		"attacked": "Grrr!",
+		"defeated": "Urk!",
+		"introduction": "Brains...",
+		
+		"neutralHello": "Brains?",
+		"neutralLetsHearIt": "Talk?",
+		"neutralNo": "Bad...",
+		"neutralYes": "Good...",
+
+		"hateHello": "Grrr...",
+		"hateLetsHearIt": "Talk...",
+		"hateNo": "Hate!",
+		"hateYes": "Okay...",
+		
+		"afterPeace": "Mmmm....good brains.",
+		"tradeRequest": "T-...tr-...trade?",
+
+		"outerColor": [179, 178, 184],
+		"innerColor": [27, 33, 23],
+		"uniqueName": "The Mindless Horde",
+		"uniques": [
+			"Starts with [Death] adopted",
+			"[-25]% maintenance costs <for [All] units>",
+			"[+15]% Production when constructing [Military] units [in all cities]"
+		],
+		"cities": [
+			"Zombie-city","Dead city","New Zombland","Zombville","Zombie Town","Zomburg","Zombania","Begin City","Argh City","Zombie 10",
+			"Zombie 11","Zombie 12","Zombie 13","Zombie 14","Zombie 15","Zombie 16","Zombie 17","Zombie 18","Zombie 19","Zombie 20"
+		]
+	},
+	{
+		"name": "Pirates",
+		"leaderName": "One eye Bill",
+		"adjective": ["Robber"],
+		"startBias": ["Bay"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "Argh! You have hoped in God in vain!",
+		"attacked": "We shall never surrender.",
+		"defeated": "You have triumphed over us. The day is yours.",
+		"introduction": "We are pleased to meet you.",
+		"neutralHello": "Hello, again.",
+		"hateHello": "Oh, it's you!",
+		"tradeRequest": "Would you be interested in a trade agreement with the Specters?",
+		"outerColor": [7,33,43],
+		"innerColor": [213,249,255],
+		"uniqueName": "Looting",
+		
+		"uniques": ["Starts with [Death] adopted", "[+1 Food] from [Bay] tiles [in all cities]", "All newly-trained [Land] units [in all cities] receive the [Heart of Sea] promotion"],
+		
+		"cities": ["Pirate Bay","Pirate Fortress","Sales Center","New Bay","Saint Z.Ship","Overseas","Pirate Ship","Boomberg","Bay 01","Far Bay",
+			"Bay 02","Bay 03","Bay 04","Bay 05","Bay 06","Bay 07","Bay 08","Bay 09","Bay 10"
+		]
+	},
+	{
+		"name": "Texas",
+		"leaderName": "Wilfred",
+		"adjective": ["Were"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "I hereby inform you of our intention to wipe out your civilization from this world.",
+		"attacked": "Pitiful fool! Now we shall destroy you!",
+		"defeated": "You were much wiser than I thought.",
+		"introduction": "We hope for a fair and just relationship with you, who are renowned for military bravery.",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you...",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [8,11,79],
+        "innerColor": [255, 255, 255],
+		"uniqueName": "Wild West",
+		"uniques": [
+			"Starts with [Death] adopted", "[+2 Production] from [Desert] tiles [in all cities]", "[+1 Culture] from [Desert] tiles [in capital]"
+		],
+		"cities": [
+			"Westcity","Wild ville","Cowboytown","New West","Westeria","Texas Town","Wild Texas","New Texas","Wildily","Wildcraft", "Democracy West","American Brains","Sandtexas","Freedoom Brain","Texas 01","Texas 02","Texas 03","Texas 04","Texas 05","Texas 06"
+		]
+	},
+	{
+		"name": "Frozen Zombies",
+		"leaderName": "Mastodon",
+		"adjective": ["Thurd"],
+		"startBias": ["Snow"],
+		"preferredVictoryType": "Domination",
+	
+		"startIntroPart1": "Brrrr....",
+		"startIntroPart2": "",
+		"declaringWar": "BRAINS!",
+		"attacked": "Grrr!",
+		"defeated": "Urk!",
+		"introduction": "Ice...",
+		"afterPeace": "Mmmm....cold.",
+		"tradeRequest": "T-...tr-...trade?",
+
+		"outerColor": [35, 101, 145],
+		"innerColor": [0, 198, 252],
+		"uniqueName": "Hardened Army",
+		"uniques": ["Starts with [Death] adopted", "[+1 Food] in cities on [Snow] tiles", "All newly-trained [Land] units [in all cities] receive the [Winter-Hardened] promotion"],
+		"cities": [
+			"Frozen City","Snow-Loc","New Snowland","Frozenia","Ice Town","Cold City","Frozia","Icewille","Icerrow","Cold 10",
+			"Cold 11","Cold 12","Cold 13","Cold 14","Cold 15","Cold 16","Cold 17","Cold 18","Cold 19","Cold 20"
+		]
+	},
+	{
+		"name": "Lost City",
+		"leaderName": "Indiana Jones",
+		"adjective": ["Golden"],
+		"startBias": ["Cobblestone"],
+		"preferredVictoryType": "Domination",
+	
+		"startIntroPart1": "Hmmm....",
+		"startIntroPart2": "",
+		"declaringWar": "GOLD!",
+		"attacked": "GRRR!",
+		"defeated": "Urk!",
+		"introduction": "Ice...",
+		"afterPeace": "Nice......",
+		"tradeRequest": "T-...tr-...trade?",
+		"outerColor": [153, 114, 92],
+		"innerColor": [230, 231, 119],
+
+		"uniqueName": "Lost Branch",
+		"uniques": ["Starts with [Death] adopted", "[+2 Gold, +2 Culture] from [Golden Tile] tiles [in all cities]", "[+70]% Golden Age length", "[+15]% Strength <for [All] units> <during a Golden Age>"],
+		"cities": [
+			"Lost City","New Goldland","Eldorado","Inkia","Zhuck","Indiana","Shineville","New Golda","Diamond City","Gold 10",
+			"Gold 11","Gold 12","Gold 13","Gold 14","Gold 15","Gold 16","Gold 17","Gold 18","Gold 19","Gold 20"
+		]
+	},
+	{
+		"name": "Future Zombies",
+		"leaderName": "Neo",
+		"adjective": ["Future"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+	
+		"startIntroPart1": "Z.O.M.B.I.E",
+		"startIntroPart2": "",
+		"declaringWar": "BRAINS!",
+		"attacked": "GRRR!",
+		"defeated": ".U.R.K!",
+		"introduction": "Zip zap zop...",
+		"afterPeace": "N.I.C.E......",
+		"tradeRequest": "T-...tr-...trade?",
+		"outerColor": [75, 245, 171],
+		"innerColor": [185, 63, 233],
+
+
+		"uniqueName": "Tomorrow Day",
+		"uniques": ["Starts with [Death] adopted","[+10]% Strength <for [Armored] units>", "[+10]% [Science]", "Double quantity of [Iron] produced", "Provides [1] [Iron] <in [Mine] tiles>"],
+		"cities": [
+			"Future City","Neon Town","Cybercity","Neonia","Futureville","Technocity","Futuretown","Neon City","Technotown","Future 10",
+			"Far 11","Techno 12","Neon 13","Tomorrow 14","Progress N","Sigma X","Skibidi Y","Far 18","Future 19","Future 20"
+		]
+	},
+	{
+		"name": "Zombie Kingdom",
+		"leaderName": "King King",
+		"adjective": ["Cristine"],
+		"startBias": ["Cobblestone"],
+		"preferredVictoryType": "Domination",
+	
+		"startIntroPart1": "For the King!",
+		"startIntroPart2": "",
+		"declaringWar": "Brains!",
+		"attacked": "Hgghg!",
+		"defeated": ".Khhhh!",
+		"introduction": "...",
+		"afterPeace": "Win of kingdom......",
+		"tradeRequest": "T-...tr-...trade?",
+		"outerColor": [110, 76, 2],
+		"innerColor": [175, 163, 162],
+
+		"uniqueName": "Middle Age",
+		"uniques": ["Starts with [Death] adopted", "[+1 Culture] in cities on [Cobblestone] tiles"],
+		"cities": ["Main Castle","Stone City","Iron City","New Cobbleburg","Rockgrad","Cobblecity","Coal ville","New Cross","Stone 10",
+			"Stone 11","Stone 12","Stone 13","Stone 14","Stone N","Stone X","Stone Y","Stone 18","Stone 19","Stone 20"]
+	},
+	{
+		"name": "Neon Mixtape",
+		"leaderName": "Bittles",
+		"adjective": ["Singer"],
+		"startBias": ["Avoid-[Desert]"],
+		"preferredVictoryType": "Domination",
+	
+		"startIntroPart1": "Lol, you cringe",
+		"startIntroPart2": "",
+		"declaringWar": "Sing battle!",
+		"attacked": "I'm win!",
+		"defeated": ".Lol!",
+		"introduction": "...",
+		"afterPeace": "I the best......",
+		"tradeRequest": "T-...tr-...trade?",
+		"outerColor": [0, 255, 255],
+		"innerColor": [110, 61, 255],
+
+		"uniqueName": "Power of Music",
+		"uniques": ["Starts with [Death] adopted", "May buy items in puppet cities", "[-10]% Culture cost of adopting new Policies"],
+		"cities": ["Mixtape Tour","Neonia-M","Brakedance City","Pop Music","Rock-N-Roll Town","California","United Tour","New Music","Shanson",
+			"BoomboxVille","Sing 12","Sing 13","Sing 14","Sing P","Sing j","Sing h","Sing 18","Sing 19","Sing 20"]
+	},
+	{
+		"name": "Jurassic Zombies",
+		"leaderName": "Uga Aga",
+		"adjective": ["Jurrasic"],
+		"startBias": ["Plains", "Desert"],
+		"preferredVictoryType": "Domination",
+	
+		"startIntroPart1": "Ghrghr",
+		"startIntroPart2": "",
+		"declaringWar": "Auaua!",
+		"attacked": "Ukukukr....",
+		"defeated": ".Argh!",
+		"introduction": "...",
+		"afterPeace": "Goah.",
+		"tradeRequest": "Uga?",
+		"outerColor": [105, 26, 38],
+		"innerColor": [151, 133, 85],
+
+		"uniqueName": "Power of stone",
+		"uniques": ["Starts with [Death] adopted", "Each city founded increases culture cost of policies [15]% less than normal", "[+3 Gold, +2 Culture] for every known Natural Wonder", "[-10]% XP required for promotions <for [all] units>"],
+		"cities": ["Jurassic City","Triace City","Dinoville","Jurassic Park","Meteor city","New Rock City","Old Rock City","Tik-Tok City","Boneburg",
+			"Stonegrad","Bone 12","Bone 13","Bone 14","Bone 15","Bone 16","Bone 17","Bone 18","Bone 19","Bone 20"]
+	},
+	{
+		"name": "Beach Zombies",
+		"leaderName": "Surfer",
+		"adjective": ["Beach"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+	
+		"startIntroPart1": "We love to relax.",
+		"startIntroPart2": "",
+		"declaringWar": "We think you're not giving us a break!",
+		"attacked": ":(",
+		"defeated": ":((",
+		"introduction": "...",
+		"afterPeace": "Nice.",
+		"tradeRequest": "Trade?",
+		"outerColor": [245, 232, 151],
+		"innerColor": [161, 121, 68],
+
+
+		"uniqueName": "Relax",
+		"uniques": ["Starts with [Death] adopted", "All newly-trained [Land] units [in all cities] receive the [Heart of Sea] promotion", "[+1 Gold, +1 Production] in cities on [Coast] tiles"],
+		"cities": ["Beach City","Light City","Palm Town","Palm Island","Beach Island","Sunbeach City","New Beach","New Plam","Coconut City",
+			"Sungrad","Beach 12","Beach 13","Beach 14","Beach 15","Beach 16","Beach 17","Beach 18","Beach 19","Beach 20"]
+	},
+	{
+		"name": "Barbarians",
+		"outerColor": [0, 0, 0],
+		"innerColor": [185, 12, 12],
+		"uniques": ["Can only heal by pillaging"]
+	}
+	
+]
+

@@ -1,0 +1,204 @@
+[
+	{
+		"name": "Heal Instantly",
+		"uniques": [
+			"[This Unit] heals [50] HP",
+			"Doing so will consume this opportunity to choose a Promotion"
+		],
+		"unitTypes": [
+			"Melee",
+			"Ranged",
+			"Heavy",
+			"Siege",
+			"Melee Water",
+			"Ranged Water",
+		]
+	},
+
+	// Melee promotions
+
+	{
+		"name": "Shock",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Melee","Heavy",]
+	},
+	{
+		"name": "Drill",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Melee","Heavy",]
+	},
+
+	// Ranged promotions
+
+	{
+		"name": "Accuracy",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Ranged","Siege",]
+    },
+	{
+		"name": "Barrage",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Ranged","Siege",]
+    },
+
+	{
+		"name": "Silver Bullet",
+		"uniques": ["[+15]% Strength <vs [Undead] units>"],
+		"unitTypes": [
+			"Heavy",
+			"Melee",
+			"Melee Water",
+			"Ranged",
+			"Ranged Water",
+		]
+	},
+	{
+		"name": "Herbicide",
+		"uniques": ["[+15]% Strength <vs [Plant] units>"],
+		"unitTypes": [
+			"Heavy",
+			"Melee",
+			"Melee Water",
+			"Ranged",
+			"Ranged Water",
+		]
+	},
+
+/*	
+	{
+		"name": "Piggyback I",
+		"uniques": ["Can carry [2] [Air] units"],
+		"unitTypes": ["Ranged Water","Siege",]
+	},
+	{
+		"name": "Piggyback II",
+		"uniques": ["Can carry [2] extra [Air] units"],
+		"prerequisites": ["Piggyback I"],
+		"unitTypes": ["Ranged Water","Siege",]
+	},
+*/
+	{
+		"name": "Over the Fence",
+		"uniques": ["Ranged attacks may be performed over obstacles"],
+		"unitTypes": ["Ranged","Ranged Water","Siege",]
+	},
+
+	{
+		"name": "Off-Road",
+		"uniques": [
+			"Ignores terrain cost",
+			"No defensive terrain penalty"
+		],
+		"unitTypes": ["Melee","Ranged","Support"]
+	},
+	{
+		"name": "On the Move",
+		"uniques": [
+			"[+1] Movement",
+			"Ignores Zone of Control",
+			"Can move after attacking"
+		],
+		"unitTypes": ["Melee","Ranged","Support"]
+	},
+
+
+
+	{
+		"name": "Sixth Sense I",
+		"uniques": [
+			"Can see over obstacles",
+			"[+1] Sight"
+		],
+		"unitTypes": ["Melee","Ranged","Heavy","Siege","Melee Water","Ranged Water",
+		]
+	},
+	{
+		"name": "Sixth Sense II",
+		"prerequisites": ["Sixth Sense I"],
+		"uniques": [
+			"Can see invisible [non-air] units",
+			"[+1] Sight"
+		],
+		"unitTypes": ["Melee","Ranged","Heavy","Siege","Melee Water","Ranged Water",]
+	},
+	{
+		"name": "Kill Count",
+		"uniques": [
+			"Instantly provides [1] [Kills] <upon defeating a [Military] unit>",
+			"Instantly provides [1] [Kills] <upon being defeated>"
+		]
+	}
+	//Unique promotions
+	{
+		"name":"Cone"
+		"uniques":["[+45]% Strength <when defending> <when above [50] HP>"]
+	}
+	{
+		"name":"Bucket"
+		"uniques":["[+85]% Strength <when defending> <when above [50] HP>", "[This Unit] loses the [Cone] promotion"]
+	}
+	{
+		"name":"Plastine"
+		"uniques":["[+33]% Strength <when defending>"]
+	}
+	{
+		"name":"Torch"
+		"uniques":["[+100]% Strength <vs [Plant units] units>"]
+	}
+	{
+		"name":"Brickhead"
+		"uniques":["[+66]% Strength <when defending> <when above [80] HP>", "[+33]% Strength <when defending> <when above [40] HP> <when below [80] HP>"]
+	}
+	{
+		"name":"Muscles"
+		"uniques":["[+100]% Strength <when above [99] HP> <when attacking>", "[+2] Movement <when above [99] HP>"]
+	}
+	{
+		"name":"Aggressive"
+		"uniques":["[+50]% Strength <when below [60] HP> <when attacking>", "[+1] Movement <when below [60] HP>", "[+15]% Strength <when defending> <when above [60] HP>"]
+	}
+	{
+		"name":"Flank"
+		"uniques":["[+50]% to Flank Attack bonuses", "[+10]% Strength <when defending>"]
+	}
+	{
+		"name":"Heart of Sea"
+		"uniques":["May attack when embarked", "[+1] Movement <for [Embarked] units>", "[1] Movement point cost to embark"]
+	}
+	{
+		"name":"Surfboard"
+		"uniques":["[+2] Movement <for [Embarked] units>", "[1] Movement point cost to embark", "[+15]% Strength <when defending>"]
+	}
+	{
+		"name":"Flying"
+		"uniques":["Can see over obstacles", "[+1] Sight", "May travel on Water tiles without embarking", "All tiles cost 1 movement", "Can enter ice tiles", "No defensive terrain bonus"]
+	}
+	{
+		"name":"Barrel Roller"
+		"uniques":["Comment [Gains a strength bonus when near a barrel]", "[+100]% Strength <when adjacent to a [Barrel] unit>", "[-1] Movement <when adjacent to a [Barrel] unit>"]
+	}
+	{
+		"name":"Winter-Hardened"
+		"uniques":["[+15]% Strength <when fighting in [Snow] tiles>"]
+	}
+	{
+		"name":"Frozen"
+		"uniques":["[-4] Movement"]
+	}
+	{
+		"name":"Iceberg"
+		"uniques":["Cannot move", "Cannot attack"]
+	}
+	{
+		"name":"Perfumed"
+		"uniques":["[-2] Movement", "[-15]% Strength <when attacking>"]
+	}
+	{
+		"name":"Metamorphosis"
+		"uniques":["Cannot move", "Cannot attack"]
+	}
+	{
+		"name":"Calm"
+		"uniques":["[-50]% Strength <when attacking>", "[-1] Movement"]
+	}
+]

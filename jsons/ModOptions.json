@@ -1,0 +1,18 @@
+{
+    "isBaseRuleset": true,
+    "tileset":"HexaRealm",
+    "unitset":"FantasyHex",
+    "uniques": ["Disable religion","Allow raze capital"],
+    "constants": {
+   	 "cityWorkRange":4
+        "maxXPfromBarbarians":150,
+        "cityStrengthBase": 8,
+        "cityStrengthPerPop":0.2,
+        "cityStrengthFromTechsMultiplier": 3,
+        "cityStrengthFromTechsExponent": 2,
+        "unitSupplyPerPopulation": 2,
+        "unitUpgradeCost": {}
+        "minimalCityDistance":4
+        "cityExpandRange":6
+    },
+}

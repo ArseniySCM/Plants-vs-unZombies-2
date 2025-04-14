@@ -1,0 +1,27 @@
+[
+	{
+		"name":"Thinker",
+		"science": 3,
+		"color": [0,0,255]
+	},
+	{
+		"name":"Shiner",
+		"gold": 3,
+		"color": [255,215,0]
+	},
+	{
+		"name":"Singer",
+		"culture": 2,
+		"color": [160,32,240]
+	},
+	{
+		"name":"Builder",
+		"production": 2,
+		"color": [139,69,19]
+	},
+	{
+		"name": "Baker",
+		"food": 3,
+		"color": [0,215,0]
+	}
+]

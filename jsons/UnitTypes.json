@@ -1,0 +1,84 @@
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land",
+        "uniques": ["Can move immediately once bought"]
+    },
+    {
+        "name": "Melee",
+        "movementType": "Land",
+        "uniques": ["Can move immediately once bought"]
+    },
+    {
+        "name": "Barbarian",
+        "movementType": "Land",
+        "uniques": []
+    },
+    {
+        "name": "Air",
+        "movementType": "Air",
+        "uniques": []
+    },
+    {
+        "name": "Ranged",
+        "movementType": "Land",
+        "uniques": ["Can move immediately once bought"]
+    },
+    {
+        "name": "Support",
+        "movementType": "Land",
+        "uniques": ["Can move immediately once bought"]
+    },
+    {
+        "name": "Armored",
+        "movementType": "Land",
+        "uniques": [
+            "No defensive terrain bonus",
+            "Can move immediately once bought"
+        ]
+    },
+    {
+        "name": "Heavy",
+        "movementType": "Land",
+        "uniques": [
+            "No defensive terrain bonus",
+            "Can move immediately once bought"
+        ]
+    },
+    {
+        "name": "Siege",
+        "movementType": "Land",
+        "uniques": [
+            "No defensive terrain bonus",
+            "Can move immediately once bought"
+        ]
+    },
+    {
+        "name": "Civilian Water",
+        "movementType": "Water",
+        "uniques": ["Can move immediately once bought"]
+    },
+    {
+        "name": "Melee Water",
+        "movementType": "Water",
+        "uniques": [
+            "Can move immediately once bought"
+        ]
+    },
+    {
+        "name": "Ranged Water",
+        "movementType": "Water",
+        "uniques": [
+            "Can move immediately once bought"
+        ]
+    },
+    {
+        "name": "Bomb",
+        "movementType": "Air",
+        "uniques": [
+            "Self-destructs when attacking",
+            "Cannot be intercepted",
+            "Can move immediately once bought"
+        ]
+    }
+]

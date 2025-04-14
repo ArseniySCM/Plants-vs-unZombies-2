@@ -1,0 +1,160 @@
+[	
+	// no luxury resources
+
+	{
+		"name": "Fossil Fuel",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"production": 1,
+		"improvedBy": ["Fuel pump"],
+		"improvementStats": {"production": 1},
+		"uniques": [
+			"Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"
+		]
+	},
+	{
+		"name": "Iron",
+		"resourceType": "Strategic",
+		//"revealedBy": "Iron Working",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Cobblestone","Snow","Hill"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1},
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+					"Generated with weight [17] <in [{Featureless} {Cobblestone}] tiles>",
+					"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
+					"Generated with weight [15] <in [{Featureless} {Desert}] tiles>",
+					"Generated with weight [40] <in [Hill] tiles>",
+					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [{Jungle} {Hill}] tiles>",
+					"Minor deposits generated with weight [20] <in [Forest] tiles>",
+					"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
+					"Minor deposits generated with weight [7] <in [{Featureless} {Desert}] tiles>",
+					"Minor deposits generated with weight [14] <in [{Featureless} {Cobblestone}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"],
+		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	},
+	{
+		"name": "Coal",
+		"resourceType": "Strategic",
+		//"revealedBy": "Scientific Theory",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Jungle","Forest"],
+		"production": 1,
+		//"improvement": "Mine",
+		"improvementStats": {"production": 2},
+		"uniques": ["Generated with weight [35] <in [Hill] tiles>",
+					"Generated with weight [30] <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Generated with weight [30] <in [Forest] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Jungle] tiles>",
+					"Minor deposits generated with weight [10] <in [Forest] tiles>",
+					"Minor deposits generated with weight [20] <in [{Grassland} {Hill}] tiles>",
+					"Minor deposits generated with weight [20] <in [{Plains} {Hill}] tiles>",
+					"Minor deposits generated with weight [30] <in [{Desert} {Hill}] tiles>",
+					"Minor deposits generated with weight [30] <in [{Cobblestone} {Hill}] tiles>",
+					"Minor deposits generated with weight [30] <in [{Snow} {Hill}] tiles>"],
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	},
+	{
+		"name": "Kelp",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": [ "Coast" ],
+		"food": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": { "food": 1 },
+		"uniques": [
+			"Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"
+		]
+	},
+	{
+		"name": "Citrus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"food": 1,
+		"improvement": "Plantation",
+		"improvementStats": { "food": 1 },
+		"uniques": [
+			"Generated on every [25] tiles <in [Plains] tiles>",
+			"Generated on every [30] tiles <in [Plains] tiles> <in [Hill] Regions>",
+			"Generated on every [25] tiles <in [Grassland] tiles>",
+			"Generated on every [30] tiles <in [Grassland] tiles> <in [Hill] Regions>"
+		]
+	},
+	{
+		"name": "Bananas",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"food": 1,
+		"improvement": "Plantation",
+		"improvementStats": { "food": 1 },
+		"uniques": [
+			"Generated on every [25] tiles <in [Plains] tiles>",
+			"Generated on every [30] tiles <in [Plains] tiles> <in [Hill] Regions>",
+			"Generated on every [25] tiles <in [Grassland] tiles>",
+			"Generated on every [30] tiles <in [Grassland] tiles> <in [Hill] Regions>"
+		]
+	},
+	{
+		"name": "Grapes",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains"],
+		"food": 1,
+		"improvement": "Plantation",
+		"improvementStats": { "food": 1 },
+		"uniques": [
+			"Generated on every [25] tiles <in [Grassland] tiles>",
+			"Generated on every [30] tiles <in [Plains] tiles>"
+		]
+	},
+	{
+		"name": "Herbs",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains","Desert"],
+		"food": 1,
+		"improvement": "Plantation",
+		"improvementStats": { "food": 1},
+		"uniques": [
+			"Generated on every [14] tiles <in [Desert] tiles>",
+			"Generated on every [16] tiles <in [Plains] tiles>"
+		]
+	},
+	{
+		"name": "Barrels",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Bay", "Cobblestone"],
+		"food": 1,
+		"improvement": "Storage",
+		"improvementStats": { "food": 1, "production":1},
+		"uniques": [
+			"Generated on every [17] tiles <in [Bay] tiles>",
+			"Generated on every [20] tiles <in [Cobblestone] tiles>",
+		]
+	},
+	{
+		"name": "Mastodon",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Snow"],
+		"gold": 2,
+		"food":2
+		"culture":1
+		"production":2
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1},
+		"uniques": [//"Generated on every [70] tiles <in [Snow] tiles>", 
+		"Generated with weight [15] <in [Hybrid] Regions>",
+			"Doesn't generate naturally <in [{Cobblestone} {Fresh Water}] tiles>"]
+	},
+	{
+		"name": "Kills",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Doesn't generate naturally",
+			"Excluded from map editor"
+		]
+	}
+]
