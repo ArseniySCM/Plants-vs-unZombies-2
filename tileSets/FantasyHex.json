@@ -1,7 +1,0 @@
-{
-    "ruleVariants": {
-        "Coast+Fossil Fuel+Fuel pump": ["Coast","Fossil Fuel","Fuel pump"],
-        "Grassland+Hill+Forest+Log cabin": ["Grassland","Hill","HillForest+Log cabin"],
-        "Plains+Hill+Forest+Log cabin": ["Plains","Hill","HillForest+Log cabin"]
-    }
-}
