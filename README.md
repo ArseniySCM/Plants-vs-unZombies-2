@@ -1,2 +1,2 @@
 # Plants vs UnZombies
-currently in alpha stage
+currently in Beta stage
