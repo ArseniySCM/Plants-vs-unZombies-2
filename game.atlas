@@ -1,0 +1,930 @@
+
+game.png
+size: 2048, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/City Center
+  rotate: false
+  xy: 220, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Home Base
+  rotate: false
+  xy: 652, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Seed of Madness
+  rotate: false
+  xy: 1084, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tree of Death
+  rotate: false
+  xy: 1300, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Amusing
+  rotate: false
+  xy: 4, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Nutritious
+  rotate: false
+  xy: 976, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Productive
+  rotate: false
+  xy: 1084, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Refined
+  rotate: false
+  xy: 976, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Stimulating
+  rotate: false
+  xy: 1300, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+EmojiIcons/Gold
+  rotate: false
+  xy: 1624, 458
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Fuel pump
+  rotate: false
+  xy: 328, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Graveyard
+  rotate: false
+  xy: 328, 84
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Jungle gym
+  rotate: false
+  xy: 544, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Lily pad
+  rotate: false
+  xy: 652, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Log cabin
+  rotate: false
+  xy: 760, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Sunflowers
+  rotate: false
+  xy: 1408, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Florists
+  rotate: false
+  xy: 112, 84
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Myconoids
+  rotate: false
+  xy: 652, 84
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Plantae
+  rotate: false
+  xy: 976, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Seaweeds
+  rotate: false
+  xy: 976, 84
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Specters
+  rotate: false
+  xy: 1084, 84
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Treefolk
+  rotate: false
+  xy: 1408, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Vampires
+  rotate: false
+  xy: 1516, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Werefolk
+  rotate: false
+  xy: 1300, 84
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Zombies
+  rotate: false
+  xy: 1516, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Death
+  rotate: false
+  xy: 4, 26
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Life
+  rotate: false
+  xy: 120, 26
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+ResourceIcons/Coral
+  rotate: false
+  xy: 4, 84
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Fossil Fuel
+  rotate: false
+  xy: 328, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Grapes
+  rotate: false
+  xy: 544, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Herbs
+  rotate: false
+  xy: 544, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Kelp
+  rotate: false
+  xy: 652, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Kills
+  rotate: false
+  xy: 760, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileIcons/Buy
+  rotate: false
+  xy: 4, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/ConvertGold
+  rotate: false
+  xy: 4, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Gold
+  rotate: false
+  xy: 4, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Renewal era
+  rotate: false
+  xy: 1574, 258
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Sapling era
+  rotate: false
+  xy: 1624, 302
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Seed era
+  rotate: false
+  xy: 1798, 418
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Snag era
+  rotate: false
+  xy: 1856, 475
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Sprout era
+  rotate: false
+  xy: 294, 44
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Tree era
+  rotate: false
+  xy: 294, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Coral
+  rotate: false
+  xy: 1664, 304
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Fossil Fuel
+  rotate: false
+  xy: 1936, 480
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Fuel pump
+  rotate: false
+  xy: 374, 48
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Fuel pump-water
+  rotate: false
+  xy: 374, 48
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grapes
+  rotate: false
+  xy: 1976, 480
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grapes+Plantation
+  rotate: false
+  xy: 374, 12
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+Forest+Log cabin
+  rotate: false
+  xy: 414, 45
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+Jungle+Jungle gym
+  rotate: false
+  xy: 454, 44
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Graveyard
+  rotate: false
+  xy: 414, 4
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Herbs
+  rotate: false
+  xy: 494, 12
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Herbs+Plantation
+  rotate: false
+  xy: 534, 48
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/HillForest+Log cabin
+  rotate: false
+  xy: 534, 12
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Jungle gym
+  rotate: false
+  xy: 574, 12
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Kelp
+  rotate: false
+  xy: 614, 48
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Lily pad
+  rotate: false
+  xy: 654, 48
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Log cabin
+  rotate: false
+  xy: 654, 12
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Plains+Forest+Log cabin
+  rotate: false
+  xy: 774, 44
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Plains+Jungle+Jungle gym
+  rotate: false
+  xy: 774, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Sunflowers
+  rotate: false
+  xy: 934, 48
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tundra+Forest+Log cabin
+  rotate: false
+  xy: 934, 8
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Boss Zombie
+  rotate: false
+  xy: 1408, 98
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Zombie Grand Champion
+  rotate: false
+  xy: 1408, 98
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Buckethead Zombie
+  rotate: false
+  xy: 1466, 156
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Button
+  rotate: false
+  xy: 1516, 206
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Corn Cob Cannon
+  rotate: false
+  xy: 1798, 382
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Count
+  rotate: false
+  xy: 1896, 480
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Discount
+  rotate: false
+  xy: 334, 48
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Friendly Ghost
+  rotate: false
+  xy: 1704, 306
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Friendly Ghost
+  rotate: false
+  xy: 1704, 306
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Necromancer
+  rotate: false
+  xy: 1798, 346
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Necromancer
+  rotate: false
+  xy: 1798, 346
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Fossilized Mammoth
+  rotate: false
+  xy: 334, 12
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mammoth Fossil
+  rotate: false
+  xy: 334, 12
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ghoul
+  rotate: false
+  xy: 1744, 306
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great General
+  rotate: false
+  xy: 494, 48
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Grunt
+  rotate: false
+  xy: 454, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Hopping Zombie
+  rotate: false
+  xy: 574, 48
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/King Zombie
+  rotate: false
+  xy: 614, 12
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Long-Range Celery
+  rotate: false
+  xy: 694, 48
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Not-So-Great General
+  rotate: false
+  xy: 694, 12
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pea Shooter
+  rotate: false
+  xy: 734, 48
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pepper Spray
+  rotate: false
+  xy: 734, 12
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/RePeater
+  rotate: false
+  xy: 814, 48
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Salad Tosser
+  rotate: false
+  xy: 814, 12
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sapling
+  rotate: false
+  xy: 854, 48
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Shambling Zombie
+  rotate: false
+  xy: 854, 12
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Skeleton
+  rotate: false
+  xy: 894, 48
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spud Gun
+  rotate: false
+  xy: 894, 12
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Zom-boni
+  rotate: false
+  xy: 974, 48
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+UnitIcons/Buckethead Zombie
+  rotate: false
+  xy: 4, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Button
+  rotate: false
+  xy: 112, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Cherry Bomb
+  rotate: false
+  xy: 112, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Corn Cob Cannon
+  rotate: false
+  xy: 112, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Count
+  rotate: false
+  xy: 220, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Discount
+  rotate: false
+  xy: 328, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Flytrap
+  rotate: false
+  xy: 220, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Fossilized Mammoth
+  rotate: false
+  xy: 436, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Mammoth Fossil
+  rotate: false
+  xy: 436, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Friendly Ghost
+  rotate: false
+  xy: 220, 84
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Ghoul
+  rotate: false
+  xy: 436, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Grunt
+  rotate: false
+  xy: 436, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Hopping Zombie
+  rotate: false
+  xy: 436, 84
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/King Zombie
+  rotate: false
+  xy: 544, 84
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Long-Range Celery
+  rotate: false
+  xy: 868, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Necromancer
+  rotate: false
+  xy: 760, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Not-So-Great General
+  rotate: false
+  xy: 868, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Pea Shooter
+  rotate: false
+  xy: 760, 84
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Pepper Spray
+  rotate: false
+  xy: 868, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/RePeater
+  rotate: false
+  xy: 868, 84
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Salad Tosser
+  rotate: false
+  xy: 1084, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sapling
+  rotate: false
+  xy: 1192, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Shambling Zombie
+  rotate: false
+  xy: 1192, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Skeleton
+  rotate: false
+  xy: 1300, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Spud Gun
+  rotate: false
+  xy: 1192, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tactical Cuke
+  rotate: false
+  xy: 1192, 84
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Zom-boni
+  rotate: false
+  xy: 1408, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Head Shot
+  rotate: false
+  xy: 1408, 134
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Herbicide
+  rotate: false
+  xy: 1516, 242
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Into Shadow
+  rotate: false
+  xy: 62, 26
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Kill Count
+  rotate: false
+  xy: 1624, 400
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Leaf on the Wind
+  rotate: false
+  xy: 1682, 458
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Off-Road
+  rotate: false
+  xy: 1624, 342
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/On the Move
+  rotate: false
+  xy: 1682, 400
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Over the Fence
+  rotate: false
+  xy: 1740, 458
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Piggyback
+  rotate: false
+  xy: 178, 26
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Regeneration
+  rotate: false
+  xy: 1682, 342
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Silver Bullet
+  rotate: false
+  xy: 1740, 400
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Sixth Sense
+  rotate: false
+  xy: 1798, 458
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Solar Power
+  rotate: false
+  xy: 236, 26
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/The Quick and the Dead
+  rotate: false
+  xy: 1740, 342
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

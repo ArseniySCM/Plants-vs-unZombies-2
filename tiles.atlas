@@ -1,0 +1,145 @@
+tiles.png
+size: 128, 128
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/HexaRealm/Tiles/Desert
+  rotate: false
+  xy: 64, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert2
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert3
+  rotate: false
+  xy: 64, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Snow
+  rotate: false
+  xy: 0, 112
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Snow2
+  rotate: false
+  xy: 0, 168
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Snow3
+  rotate: false
+  xy: 64, 112
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Cobblestone
+  rotate: false
+  xy: 64, 168
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Cobblestone2
+  rotate: false
+  xy: 0, 224
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Bay
+  rotate: false
+  xy: 0, 56
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Bay2
+  rotate: false
+  xy: 64, 56
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Barrels
+  rotate: false
+  xy: 128, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+  TileSets/HexaRealm/Tiles/Storage
+  rotate: false
+  xy: 128, 56
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Barrels+Storage
+  rotate: false
+  xy: 128, 56
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mastodon
+  rotate: false
+  xy: 128, 112
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mastodon+Camp
+  rotate: false
+  xy: 128, 168
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Cobblestone+Hill
+  rotate: false
+  xy: 128, 224
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Golden Tile
+  rotate: false
+  xy: 192, 168
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Volcano
+  rotate: false
+  xy: 192, 224
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Highlight
+  rotate: false
+  xy: 64, 224
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Surfboard
+  rotate: false
+  xy: 192, 56
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
